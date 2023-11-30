@@ -198,10 +198,10 @@ app.get('/paymentinfo',async(req,res)=>{
   res.send(result)
 })
 
-app.get('/announcement',async(req,res)=>{
-  const result = await annoucementcollection.find().toArray()
-  res.send(result)
-})
+// app.get('/announcement',async(req,res)=>{
+//   const result = await annoucementcollection.find().toArray()
+//   res.send(result)
+// })
 
 app.patch('/roombyagreement/:id',async(req,res)=>{
   const id = req.params.id
