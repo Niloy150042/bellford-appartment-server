@@ -107,8 +107,8 @@ app.get('/rooms',async(req,res)=>{
 })
 app.get('/roombyagreementss',async(req,res)=>{
 
-  const result = await roombyagreementcollection.find().toArray()
-  res.send(result)
+  // const result = await roombyagreementcollection.find().toArray()
+  // res.send(result)
 
 
 })
