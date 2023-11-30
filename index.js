@@ -214,7 +214,7 @@ app.patch('/roombyagreement/:id',async(req,res)=>{
     }
  
   }
-  // const result = await roombyagreementcollection.updateOne(filter,updateddoc)
+  const result = await roombyagreementcollection.updateOne(filter,updateddoc)
   res.send(result)
 
 })
