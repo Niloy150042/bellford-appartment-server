@@ -219,7 +219,7 @@ app.patch('/roombyagreement/:id',async(req,res)=>{
 
 })
 
-// app.listen(port,()=>{
-//     console.log(`Bellford is running on port :${port}`);
-// })
+app.listen(port,()=>{
+    console.log(`Bellford is running on port :${port}`);
+})
 
